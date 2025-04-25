@@ -27,6 +27,12 @@ The **Ticket Booking System** is a web-based platform designed to simplify the p
 - **Other**: Django Admin Panel
 
 ---
+📫 Contact
+For any queries, reach out at: himanshudongare143@.com
+Or visit: https://github.com/HimanshuX123
+
+
+
 
 ## ⚙️ Installation
 
