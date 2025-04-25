@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CONTACT</title>
+       <link rel="stylesheet" href="/static/css/mycss.css">
+    <style>
+
+    .contact-info {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.contact-info p {
+    font-size: 25px;
+    color: #333;
+    margin: 8px 0;
+}
+
+    </style>
+</head>
+<body>
+
+ <nav>
+        <ul>
+            <li><a href="{% url 'hi' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About Us</a></li>
+            <li><a href="{% url 'booking' %}">Booking</a></li>
+        </ul>
+ </nav>
+
+  <div class="contact-info">
+        <p><strong>Customer Support:</strong> +91 9370828615</p>
+        <p><strong>Email:</strong> support@ticketbookingsystem.com</p>
+        <p><strong>Office Address:</strong> Rajapeth beside JK innovative , bus stand amravati, Maharashtra, India</p>
+        <p><strong>Working Hours:</strong> Mon-Sat (9:00 AM - 6:00 PM)</p>
+    </div>
+</body>
+</html>
